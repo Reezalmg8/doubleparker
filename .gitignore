@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+
+# SQLite database
+db.sqlite
+
+# Logs
+*.log
+
+# Build outputs
+dist/
