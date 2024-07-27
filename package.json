@@ -2,20 +2,39 @@
   "name": "double-parker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://reezalmg8.github.io/doubleparker",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@zxing/library": "^0.21.2",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "gh-pages": "^6.1.1",
+    "knex": "^3.1.0",
+    "qrcode": "^1.5.3",
+    "qrcode.react": "^3.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-qr-code": "^2.0.15",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
+    "sqlite3": "^5.1.7",
+    "styled-components": "^6.1.12",
+    "twilio": "^5.2.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

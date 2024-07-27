@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LoginPage from './pages/LoginPage';
+import QRCodePage from './pages/QRCodePage';
+import DashboardPage from './pages/Dashboard';
+import RegistrationPage from './pages/RegistrationPage';
+import ActionPage from './pages/actionPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<LoginPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/generate-qr" element={<QRCodePage />} />
+          <Route path="/register" element={<RegistrationPage />} />
+          <Route path="/action" element={<ActionPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

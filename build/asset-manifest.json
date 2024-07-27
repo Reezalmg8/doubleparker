@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/doubleparker/static/css/main.e6c13ad2.css",
+    "main.js": "/doubleparker/static/js/main.8721b58f.js",
+    "static/js/453.0a3467c5.chunk.js": "/doubleparker/static/js/453.0a3467c5.chunk.js",
+    "static/media/vindar.jpeg": "/doubleparker/static/media/vindar.079c1548ebd93855b384.jpeg",
+    "index.html": "/doubleparker/index.html",
+    "main.e6c13ad2.css.map": "/doubleparker/static/css/main.e6c13ad2.css.map",
+    "main.8721b58f.js.map": "/doubleparker/static/js/main.8721b58f.js.map",
+    "453.0a3467c5.chunk.js.map": "/doubleparker/static/js/453.0a3467c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8721b58f.js"
+  ]
+}
