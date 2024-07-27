@@ -9,7 +9,7 @@ import ActionPage from './pages/actionPage';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/doubleparker">
       <div>
         <Routes>
           <Route path="/" element={<LoginPage />} />
